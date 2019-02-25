@@ -1,0 +1,25 @@
+@import "card";
+
+body {
+  font-family: Helvetica;
+}
+
+.col-sm-7, .col-sm-5 {
+  padding: 0px;
+}
+
+.flat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flat {
+  flex: 49.7% 0 0;
+  cursor: pointer;
+  border: 5px solid transparent;
+  margin: 1px;
+}
+
+.selected {
+  border: 5px solid red;
+}
